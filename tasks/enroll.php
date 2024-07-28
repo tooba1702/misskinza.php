@@ -20,35 +20,29 @@
               <br><br>
 
               <label>Father Name</label>
-              <input type="text" name="userAge" id="" class="form-control" placeholder="" aria-describedby="helpId">
-              <br><br>
-
-              <label>School/College Name</label>
-              <input type="text" name="userSalary" id="" class="form-control" placeholder="" aria-describedby="helpId">
+              <input type="text" name="fName" id="" class="form-control" placeholder="" aria-describedby="helpId">
               <br><br>
               <label>Group</label>
-              <input type="text" name="userSalary" id="" class="form-control" placeholder="" aria-describedby="helpId">
+              <input type="text" name="stdGroup" id="" class="form-control" placeholder="" aria-describedby="helpId">
               <br><br>
 
               <label>Roll Number</label>
-              <input type="number" name="userLoan" id="" class="form-control" placeholder="" aria-describedby="helpId">
+              <input type="number" name="rollno" id="" class="form-control" placeholder="" aria-describedby="helpId">
               <br><br>
-
-              
-                <label for="">select Class</label>
-                <select class="form-control" name="userDuration" id="">
+              <label for="">select Class</label>
+                <select class="form-control" name="class" id="">
                   <option>select</option>
-                  <option value="1">SSC I</option>
-                  <option value="5">SSC II</option>
-                  <option value="10">FSC I</option>
-                  <option value="10">FSC II</option>
+                  <option>SSC I</option>
+                  <option>SSC II</option>
+                  <option>FSC I</option>
+                  <option>FSC II</option>
 
 
                 </select>
               <br><br>
 
               <h6>enter your marks</h6>
-              <label for="">Bio/Maths</label>
+              <label for="">Bio</label>
               <input type="number" name="bio">
               <br><br>
 
@@ -68,33 +62,10 @@
               <input type="number" name="phy">
               <br><br>
 
-              <label for="">islamiat</label>
-              <input type="number" name="isl">
-              <br><br>
-
-
-
               <button name="stdData" type="submit" class="btn btn-success">Submit</button>
             </div>
         </form>
     </div>
-
-        if(isset($_POST['userData'])){
-          
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+       
      </body>
 </html>

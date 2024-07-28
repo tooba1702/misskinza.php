@@ -23,6 +23,7 @@
       </div>
 
 <?php
+
 if(isset($_POST['userData'])){
     $fileName = $_POST['ext'];
    $array = explode(".", $fileName);
